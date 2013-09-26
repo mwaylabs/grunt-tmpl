@@ -15,7 +15,7 @@ module.exports = function(grunt) {
   // filename conversion for templates
   var defaultProcessName = function(name) { return name; };
 
-  grunt.registerMultiTask('jst', 'Compile underscore templates to JST file', function() {
+  grunt.registerMultiTask('tmpl', 'Compile underscore templates to JST file', function() {
     var lf = grunt.util.linefeed;
     var helpers = require('grunt-lib-contrib').init(grunt);
     var options = this.options({
