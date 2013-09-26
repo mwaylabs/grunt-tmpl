@@ -1,25 +1,20 @@
 {
-  "name": "grunt-contrib-jst",
+  "name": "grunt-tmpl",
   "description": "Precompile Underscore templates to JST file.",
-  "version": "0.5.1",
-  "homepage": "https://github.com/gruntjs/grunt-contrib-jst",
+  "version": "0.1.0",
+  "homepage": "https://github.com/mwaylabs/grunt-tmpl",
   "author": {
-    "name": "Grunt Team",
-    "url": "http://gruntjs.com/"
+    "name": "M-Way Labs",
+    "url": "https://github.com/mwaylabs"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/gruntjs/grunt-contrib-jst.git"
+    "url": "git://github.com/mwaylabs/grunt-tmpl.git"
   },
   "bugs": {
-    "url": "https://github.com/gruntjs/grunt-contrib-jst/issues"
+    "url": "https://github.com/mwaylabs/grunt-tmpl/issues"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/gruntjs/grunt-contrib-jst/blob/master/LICENSE-MIT"
-    }
-  ],
+  "licenses": "MIT",
   "engines": {
     "node": ">= 0.8.0"
   },
@@ -35,7 +30,8 @@
     "grunt-contrib-nodeunit": "~0.2.0",
     "grunt-contrib-clean": "~0.4.1",
     "grunt-contrib-internal": "~0.4.5",
-    "grunt": "~0.4.0"
+    "grunt": "~0.4.0",
+    "tmp-tmpl": "~0.1.2"
   },
   "peerDependencies": {
     "grunt": "~0.4.0"

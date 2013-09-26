@@ -50,7 +50,7 @@ module.exports = function(grunt) {
         var compiled, filename;
 
         try {
-          compiled = _.template(src, false, options.templateSettings).source;
+          compiled = _.tmpl(src, false, options.templateSettings).source;
         } catch (e) {
           grunt.log.error(e);
           grunt.fail.warn('JST "' + filepath + '" failed to compile.');
