@@ -1,7 +1,7 @@
 {
   "name": "grunt-tmpl",
   "description": "Precompile Underscore templates to JST file.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/mwaylabs/grunt-tmpl",
   "author": {
     "name": "M-Way Labs",
@@ -23,15 +23,15 @@
   },
   "dependencies": {
     "lodash": "~1.0.0",
-    "grunt-lib-contrib": "~0.5.1"
+    "grunt-lib-contrib": "~0.5.1",
+    "tmp-tmpl": "~0.1.2"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "~0.6.0",
     "grunt-contrib-nodeunit": "~0.2.0",
     "grunt-contrib-clean": "~0.4.1",
     "grunt-contrib-internal": "~0.4.5",
-    "grunt": "~0.4.0",
-    "tmp-tmpl": "~0.1.2"
+    "grunt": "~0.4.0"
   },
   "peerDependencies": {
     "grunt": "~0.4.0"

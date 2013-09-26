@@ -11,6 +11,7 @@
 module.exports = function(grunt) {
 
   var _ = require('lodash');
+  _.mixin({tmpl: require('tmp-tmpl').tmpl});
 
   // filename conversion for templates
   var defaultProcessName = function(name) { return name; };
