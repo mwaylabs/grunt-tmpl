@@ -1,7 +1,7 @@
 {
   "name": "grunt-tmpl",
   "description": "Precompile Underscore templates to JST file.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/mwaylabs/grunt-tmpl",
   "author": {
     "name": "M-Way Labs",
