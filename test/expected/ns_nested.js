@@ -2,10 +2,10 @@ this["MyApp"] = this["MyApp"] || {};
 this["MyApp"]["JST"] = this["MyApp"]["JST"] || {};
 this["MyApp"]["JST"]["Main"] = this["MyApp"]["JST"]["Main"] || {};
 
-this["MyApp"]["JST"]["Main"]["test/fixtures/template.html"] = function(obj) {
-var __t, __p = '', __e = _.escape;
-__p += '<head><title>' +
-((__t = ( obj.title )) == null ? '' : __t) +
+this["MyApp"]["JST"]["Main"]["test/fixtures/template.html"] = function(obj){
+var __t,__p='',__j=Array.prototype.join,print=function(){__p+=__j.call(arguments,'');};
+__p+='<head><title data-binding="obj.title">'+
+((__t=(typeof  obj.title !== 'undefined' ?  obj.title  : ''))==null?'':__t)+
 '</title></head>';
-return __p
+return __p;
 };
